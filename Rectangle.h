@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 using namespace std;
 
@@ -31,3 +32,13 @@ public:
 };
 
 #endif
+=======
+#pragma once
+#include "Polygon.h"
+
+class Rectangle: public Polygon
+{
+public:
+int Area();
+};
+>>>>>>> 22014fe59e59d0025ffc8a6c30cdcdc1ab9e164c

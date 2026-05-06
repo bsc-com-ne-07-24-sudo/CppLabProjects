@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Rectangle.h"
+<<<<<<< HEAD
 using namespace std;
 #include <iostream>
 #include "Rectangle.h"
@@ -36,5 +37,19 @@ cout << "Area of rectangle 2: " << rect2.calculateArea() << endl;
     // Output area
     cout << "Area of rectangle: " << rect.calculateArea() << endl;
 
+=======
+#include "Triangle.h"
+
+using namespace std;
+
+int main()
+{
+    Rectangle rect;
+    Triangle trgl;
+    rect.SetValues(4,5);
+    trgl.SetValues(4,5);
+    cout << rect.Area() << "\n";
+    cout << trgl.Area() << "\n";
+>>>>>>> 22014fe59e59d0025ffc8a6c30cdcdc1ab9e164c
     return 0;
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 using namespace std;
 #include "Rectangle.h"
@@ -40,3 +41,11 @@ float Rectangle::getWidth() const {
 float Rectangle::calculateArea() const {
     return length * width;
 }
+=======
+#include "Rectangle.h"
+
+int Rectangle:: Area()
+{
+    return mWidth * mHeight;
+}
+>>>>>>> 22014fe59e59d0025ffc8a6c30cdcdc1ab9e164c
